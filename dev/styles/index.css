@@ -1,0 +1,25 @@
+.h5-panel {
+  background-color: #fff;
+  padding: 0.4rem;
+}
+.h5-panel-title {
+  color: #000;
+}
+[data-dpr="1"] body {
+  font-size: 13px;
+}
+[data-dpr="1"] .h5-title {
+  font-size: 15px;
+}
+[data-dpr="2"] body {
+  font-size: 26px;
+}
+[data-dpr="2"] .h5-title {
+  font-size: 30px;
+}
+[data-dpr="3"] body {
+  font-size: 39px;
+}
+[data-dpr="3"] .h5-title {
+  font-size: 45px;
+}
