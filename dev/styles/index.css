@@ -140,9 +140,13 @@ ins,
 a {
   text-decoration: none;
 }
-body {
+html {
   background-color: #f2f2f2;
+}
+body {
   color: #000;
+  max-width: 750px;
+  margin: 0 auto;
 }
 a,
 a:hover,
@@ -167,9 +171,9 @@ a:active {
 }
 .shu {
   width: 0;
-  height: 0.373333rem;
+  height: 0.75rem;
   border-left: 2px solid #888;
-  margin: 0 0.133333rem;
+  margin: 0 0.125rem;
 }
 .black {
   color: #000 !important;
@@ -184,21 +188,21 @@ a:active {
   background-size: contain;
 }
 .tags {
-  margin-top: 0.4rem;
+  margin-top: 0.75rem;
 }
 .tags .tag {
   display: inline-block;
   border: 2px solid #3587e7;
-  padding: 0.2rem 0.346667rem;
+  padding: 0.375rem 0.65rem;
   color: #3587e7;
-  border-radius: 0.373333rem;
-  margin: 0 0.133333rem 0.066667rem 0;
+  border-radius: 0.7rem;
+  margin: 0 0.25rem 0.125rem 0;
 }
 .line50 {
-  line-height: 0.666667rem;
+  line-height: 1.25rem;
 }
 .mb40 {
-  margin-bottom: 0.533333rem;
+  margin-bottom: 1rem;
 }
 .media,
 .media-body {
@@ -206,7 +210,7 @@ a:active {
   overflow: hidden;
 }
 .media-body {
-  width: 133.333333rem;
+  width: 999999px;
 }
 .media-object {
   display: block;
@@ -216,11 +220,11 @@ a:active {
 }
 .media-right,
 .media > .pull-right {
-  padding-left: 0.4rem;
+  padding-left: 0.75rem;
 }
 .media-left,
 .media > .pull-left {
-  padding-right: 0.4rem;
+  padding-right: 0.75rem;
 }
 .media-left,
 .media-right,
@@ -236,7 +240,7 @@ a:active {
 }
 .media-heading {
   margin-top: 0;
-  margin-bottom: 0.066667rem;
+  margin-bottom: 0.125rem;
 }
 .media-list {
   padding-left: 0;
@@ -245,25 +249,22 @@ a:active {
 .media-left {
   position: relative;
 }
-.media-body .media-heading {
-  line-height: 0.506667rem;
-}
 .media-body p {
-  line-height: 0.506667rem;
+  line-height: 0.875rem;
 }
 .panel-text {
-  line-height: 0.48rem;
+  line-height: 0.9rem;
 }
 .panel-text h3 {
   color: #888;
-  font-size: 0.346667rem;
+  font-size: ;
 }
 .level {
   position: absolute;
 }
 .cell .h5-panel {
   background-color: #fff;
-  padding: 0.4rem;
+  padding: 0.75rem;
   border-top: 1px solid #c9c9c9;
 }
 .cell .h5-panel:first-child {
@@ -271,16 +272,15 @@ a:active {
 }
 .cell .h5-panel-title {
   color: #000;
-  line-height: 0.4rem;
-  margin: 0.106667rem 0 0.133333rem 0;
+  line-height: 0.75rem;
+  margin: 0.2rem 0 0.25rem 0;
 }
 .h5-ttp {
   color: #888;
-  line-height: 0.586667rem;
+  line-height: 1.1rem;
 }
 .detail-info-list li {
-  line-height: 0.4rem;
-  margin: 0.15rem 0;
+  margin: 0.25rem 0;
 }
 .detail-info-list li:before,
 .detail-info-list li:after {
@@ -292,23 +292,23 @@ a:active {
 }
 .detail-info-list li > span {
   float: left;
-  width: 7.2rem;
+  width: 13.5rem;
 }
 .detail-info-list li > span:first-child {
-  width: 1.733333rem;
+  width: 3.25rem;
   color: #888;
 }
 .h3-title {
-  line-height: 1.173333rem;
-  padding: 0 0.466667rem;
+  line-height: 2.2rem;
+  padding: 0 0.875rem;
 }
 .btmfixed {
-  height: 1.333333rem;
+  height: 2.5rem;
   width: 100%;
 }
 .btmfixed > a {
-  height: 1.333333rem;
-  line-height: 1.333333rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
   text-align: center;
   background-color: #4492e7;
   display: block;
@@ -317,34 +317,40 @@ a:active {
   bottom: 0;
   left: 0;
   color: #fff;
-  font-size: 0.48rem;
+  font-size: 0.9rem;
 }
-[data-dpr="1"] body,
-[data-dpr="1"] .fz26 {
-  font-size: 13px;
+body {
+  font-size: 0.65rem;
 }
-[data-dpr="1"] .fz30 {
-  font-size: 15px;
+.fz26 {
+  font-size: 0.65rem !important;
 }
-[data-dpr="1"] .h5-title {
-  font-size: 15px;
+.fz30 {
+  font-size: 0.75rem !important;
 }
-[data-dpr="2"] body,
-[data-dpr="2"] .fz26 {
+.h5-title {
+  font-size: 0.75rem;
+}
+[data-dpr="2"] body {
   font-size: 26px;
 }
+[data-dpr="2"] .fz26 {
+  font-size: 26px !important;
+}
 [data-dpr="2"] .fz30 {
-  font-size: 30px;
+  font-size: 30px !important;
 }
 [data-dpr="2"] .h5-title {
   font-size: 30px;
 }
-[data-dpr="3"] body,
-[data-dpr="3"] .fz26 {
+[data-dpr="3"] body {
   font-size: 39px;
 }
+[data-dpr="3"] .fz26 {
+  font-size: 39px !important;
+}
 [data-dpr="3"] .fz30 {
-  font-size: 45px;
+  font-size: 45px !important;
 }
 [data-dpr="3"] .h5-title {
   font-size: 45px;
