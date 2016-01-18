@@ -240,7 +240,7 @@ a:active {
 }
 .media-heading {
   margin-top: 0;
-  margin-bottom: 0.125rem;
+  margin-bottom: 0.1rem;
 }
 .media-list {
   padding-left: 0;
@@ -248,6 +248,9 @@ a:active {
 }
 .media-left {
   position: relative;
+}
+.media-body .media-heading {
+  line-height: 0.875rem;
 }
 .media-body p {
   line-height: 0.875rem;
